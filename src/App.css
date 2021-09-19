@@ -43,12 +43,13 @@ html, body {
 }
 footer {
   height: 50px;
-  position: absolute;
-  bottom: 0px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
 }
 main {
   min-height: 50px;
+  margin-bottom: 50px;
 }
 .card {
   height: 250px;
